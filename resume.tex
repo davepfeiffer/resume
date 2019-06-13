@@ -1,0 +1,152 @@
+\documentclass[10pt]{article}
+
+\setlength{\parindent}{0pt}
+
+\usepackage{sectsty}
+\sectionfont{\fontsize{12}{12}\selectfont}
+
+\usepackage{fontspec}
+\setmainfont{Noto Sans}
+
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{textpos}
+\TPMargin{4pt}
+\setlength{\TPHorizModule}{7.25in}
+\setlength{\TPVertModule}{9.5in}
+
+\usepackage{xcolor}
+\definecolor{white}{HTML}{FFFFFF}
+\definecolor{lightgray}{HTML}{E7E7E7}
+
+\begin{document}
+
+  \pagenumbering{gobble}
+
+  \begin{center}
+    \textbf{\Large David Pfeiffer} \\
+  \end{center}
+
+  % Sidebar
+  \textblockcolor{lightgray}
+  \begin{textblock}{0.3}(0.0, 0.0)
+    \textbf{Languages} \\
+    Verilog \\
+    Assembly (ARM, x86, MIPS) \\
+    C \\
+    C++ \\
+    Rust \\
+    Java \\
+    Coq \\
+    OCaml \\
+    Ruby \\
+    Python \\
+    Unix Shell / Bash \\
+    Prolog \\
+
+    \textbf{Tools} \\
+    Git \\
+    Make / CMake \\
+    pandoc \\
+    Xilinx ISE \\
+    AutoHotkey \\
+    IDAPro \\
+    GNU Core Utilities \\
+
+    \textbf{Frameworks} \\
+    Qt5 \\
+    SQLite \\
+    LaTeX \\
+    NumPy \\
+    Matplotlib \\
+
+    \textbf{Operating Systems} \\
+    GNU / Linux \\
+    MacOS \\
+    Windows \\
+
+    \textbf{Relevant Courses} \\
+    Computer Vision - CMSC426 \\
+    Program Analysis - CMSC631 \\
+    Binary Reverse Engineering and Hardware Security - ENEE459b \\
+    Microprocessors - ENEE440 \\
+
+    \textbf{Social Involvement} \\
+    AACC Engineering Club \\
+    - President, 2015 \\
+    Vector Space \\
+    - Member, 2016 \\
+
+    \textbf{Honors} \\
+    AACC Engineering Scholars \\
+    Dean's List AACC x3 \\
+    Dean's List UMD x2 \\
+
+    \textbf{Extra-Curricular Activities} \\
+    Viola \\
+    Guitar \\
+    Brazilian Jiu-Jitsu
+  \end{textblock}
+
+  % Main Text
+  \textblockcolor{white}
+  \begin{textblock}{0.7}(0.3, 0.0)
+
+    \begin{tabular}{ l l l l }
+      \bfseries Phone: & (123) 456-7890 & 
+      \bfseries Github: & davepfeiffer \\
+      \bfseries Email: & resume@dmpfeiffer.com & 
+      \bfseries Website: & dmpfeiffer.com \\
+    \end{tabular} \\
+
+    \textbf{\large Education } \\
+      \textbf{B.Sc. Computer Engineering} \hfill Spring 2018
+      \begin{itemize}
+        \setlength{\itemsep}{0pt}
+        \item University of Maryland, College Park
+        \item 3.5 GPA
+      \end{itemize}
+    \textbf{\large Projects} \\
+      \textbf{PyForeman} -- College Park, MD \hfill Fall 2017
+      \begin{itemize}
+        \item Designed a python package for quickly implementing build tools with closures
+        \item Extended the package to create a tool that automatically generates shell scripts with support for dependency checking, parallel build steps, and descriptive failures
+        \item Utilized the tool to save time in a class that strictly required either shell scripts or batch files to build projects
+      \end{itemize}
+      \textbf{Embedded VoIP Device} -- Lynchburg, VA \hfill Summer 2016
+      \begin{itemize}
+        \setlength{\itemsep}{0pt}
+        \item Created a digital replacement for an existing communication device at a 5x lower cost than off the shelf solutions
+        \item Implemented a peer-to-peer distributed system to ensure that users could seamlessly communicate without setting up servers
+        \item Designed a custom PCB with components including flash memory, a USB audio codec, a LCD, push-buttons, and a power over Ethernet converter
+        \item Wrote software drivers for the IO components
+      \end{itemize}
+    \textbf{\large Professional Experience} \\
+      \textbf{Northrop Grumman} -- Linthicum, MD \\
+      \textit{Software Engineer} \hfill August 2018 -- Present
+      \begin{itemize}
+        \setlength{\itemsep}{0pt}
+        \item Removed hours of reaccuring manual data collection overhead for projects with unique security requirements.
+        \item Initialized migration from ClearCase VCS to a modern DevOps workflow.
+        \item Addressed various security vulnerabilities in a metric collection website.
+      \end{itemize}
+      \textbf{University of Maryland} -- College Park, MD \\
+      \textit{Organization of Programming Languages, TA} \hfill August 2017 -- Dec 2017
+      \begin{itemize}
+        \setlength{\itemsep}{0pt}
+        \item Held office hours to assist students with questions about the course's theory and projects.
+        \item Lead a discussion section to supplement lectures with exercises and additional explanation of theory.
+      \end{itemize}
+      \textbf{Arena NP} -- Lynchburg, VA \\
+      \textit{Intern Embedded Systems} \hfill May 2017 -- August 2017 \\
+      \textit{Co-op Embedded Systems} \hfill January 2016 -- August 2016
+      \begin{itemize}
+        \setlength{\itemsep}{0pt}
+        \item Wrote embedded software for micro-controllers and single-board computers
+        \item Designed integrated circuits using Xilinx Spartan Series FPGAs
+        \item Built circuits with OrCAD
+        \item Created UI for embedded devices with C++, Qt, and MFC
+        \item Automated common tasks using Makefiles, Python, Bash
+      \end{itemize}
+  \end{textblock}
+\end{document}
